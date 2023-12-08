@@ -66,3 +66,22 @@ fitness and mental health
 
 also financial wellbeing 
 
+~~~
+
+
+~~~
+Important things needed to be done 
+
+1. One cognizant web account entry done 
+
+2. Intune mobile app done 
+
+3. outlook mail done 
+
+4. Attendance process both manually if the user wants to do work from home 
+or 
+  work in the office 
+
+5. Laptop request to the CTS 
+~~~
+
