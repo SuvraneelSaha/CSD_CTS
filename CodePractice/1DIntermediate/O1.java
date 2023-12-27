@@ -24,6 +24,7 @@ public class O1 {
         duplicates=duplicates+1;
       }
     }
+    in.close();
 
     System.out.println("The Number of Duplicate elements are "+duplicates);
 
