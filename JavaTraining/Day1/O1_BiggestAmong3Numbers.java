@@ -15,8 +15,17 @@ public class O1_BiggestAmong3Numbers {
     int c = in.nextInt();
 
     System.out.println("Maximum among the 3 numbers is "+Math.max(Math.max(a, b),c));
+/*
+ in.next() for words and 
+ in.nextInt() for integer 
 
+in.nextLine() for the whole line 
+ */
 
     
   }
 }
+
+/*
+ We know how to code now we have to write optimized code . 
+ */
