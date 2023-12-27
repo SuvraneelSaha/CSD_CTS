@@ -2,7 +2,7 @@ package JavaTraining.Day1;
 
 import java.util.Scanner;
 
-public class O2 {
+public class O2_PositiveNegative {
   public static void main(String[] args) {
     
     Scanner in = new Scanner(System.in);
