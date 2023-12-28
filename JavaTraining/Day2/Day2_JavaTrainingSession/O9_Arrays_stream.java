@@ -1,4 +1,4 @@
-package JavaTraining.Day2_JavaTrainingSession;
+package JavaTraining.Day2.Day2_JavaTrainingSession;
 
 import java.util.Arrays;
 

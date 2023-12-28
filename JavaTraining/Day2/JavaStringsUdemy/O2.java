@@ -1,4 +1,4 @@
-package JavaTraining.Day2.JavaStrings;
+package JavaTraining.Day2.JavaStringsUdemy;
 
 public class O2 {
   public static void main(String[] args) {

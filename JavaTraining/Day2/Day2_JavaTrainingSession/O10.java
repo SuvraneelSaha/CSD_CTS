@@ -1,4 +1,4 @@
-package JavaTraining.Day2_JavaTrainingSession;
+package JavaTraining.Day2.Day2_JavaTrainingSession;
 
 public class O10 {
   public static void main(String[] args) {

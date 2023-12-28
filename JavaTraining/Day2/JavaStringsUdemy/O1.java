@@ -1,4 +1,4 @@
-package JavaTraining.Day2.JavaStrings;
+package JavaTraining.Day2.JavaStringsUdemy;
 
 import java.util.Scanner;
 
