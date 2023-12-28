@@ -24,7 +24,7 @@ public static int sumPrime(int n)
     return sum ;
   }
  
-  while(n>=0)
+  while(n>0)
   {
     int rem = n % 10 ; 
 
