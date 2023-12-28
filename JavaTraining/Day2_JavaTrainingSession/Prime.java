@@ -17,6 +17,11 @@ public class Prime {
 
     System.out.println(isPrime(n));
 
+
+    // using the given code 
+
+    isPrimeTrainer();
+
   }
   public static boolean isPrime(int n)
   {
@@ -37,5 +42,25 @@ public class Prime {
     }
 
     return true;
+  }
+
+  public static void isPrimeTrainer()
+  {
+    int num;
+		boolean isPrime = true;
+		Scanner input = new Scanner(System.in);
+		num = input.nextInt();
+		if (num == 0 || num == 1) {
+			isPrime = false;
+		} else {
+			for (int j = 2; j < num - 1; j++) {
+				if (num % j == 0) {
+					isPrime = false;
+					break;
+				}
+			}
+		}
+ 
+		System.out.println(isPrime ? "Prime" : "Not a Prime");
   }
 }
