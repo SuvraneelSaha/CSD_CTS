@@ -9,7 +9,34 @@ public class PrimeSum {
     int n = in.nextInt();
 
     System.out.println("Sum is "+sumPrime(n));
+    in.close();
 
+  }
+
+public static int sumPrime(int n)
+{
+
+  int num = n ; 
+  int sum = 0 ; 
+
+  if(isPrime(num) == false)
+  {
+    return sum ;
+  }
+ 
+  while(n>=0)
+  {
+    int rem = n % 10 ; 
+
+    if(isPrime(rem) == true)
+    {
+      sum = sum + rem ; 
+    }
+
+    n = n/10 ; 
+
+    }  
+    return sum ; 
   }
 
 
@@ -32,35 +59,6 @@ public class PrimeSum {
     }
 
     return true;
-  }
-
-
-  public static int sumPrime(int n)
-{
-
-  // if(isPrime(n) == false)
-  // {
-  //   return 0 ;
-  // }
- 
-  int sum = 0 ; 
-  while(n>=0)
-  {
-    int rem = n % 10 ; 
-
-    if(isPrime(rem) == true)
-    {
-      sum = sum + rem ; 
-    }
-
-    n = n/10 ; 
-
-  
-
-  
-  
-    }  
-    return sum ; 
   }
 
 
