@@ -5,7 +5,9 @@ public class O2 {
     // replace single or multiple characters in a string 
 
     String s1 = "Welcome to java Full Stack Development" ; 
+    
 
+    
     
   }
   

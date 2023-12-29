@@ -1,3 +1,5 @@
+package JavaTraining.JavaStringsUdemy;
+
 import java.util.*;
 
 public class O3 {
@@ -66,6 +68,16 @@ public class O3 {
      String str = "Welcome";
 
      System.out.println(str.substring(2,5));
+
+    // welcome
+     System.out.println(str.substring(0,6));
+    // welcom 
+
+    // the characters which is between the range , the chars will be returned 
+
+    // Split Function 
+    // divide the string into multiple parts using delimeter 
+    String ss ; 
 
 
 
