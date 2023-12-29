@@ -2,7 +2,7 @@ package JavaTraining.Day3;
 
 import java.util.Scanner;
 
-public class O2 {
+public class O2_CharacterPresent_indexOf {
   public static void main(String[] args) {
     
     
@@ -12,11 +12,11 @@ public class O2 {
     String str = in.nextLine();
 
     System.out.println("Enter an character to check whether it is present or not : ");
-    char ch = in.next().charAt(0);.
+    char ch = in.next().charAt(0);
 
     // use indexof and lastIndexOf() ; 
    
-    
+    isCharacterPresent(str, ch);
     
   }
   public static void isCharacterPresent(String str,char ch)
@@ -27,7 +27,14 @@ public class O2 {
     }
     else
     {
-      if(str.indexOf(ch) >=0 )  
+      if(str.indexOf(ch) >=0 && str.lastIndexOf(ch) > str.indexOf(ch))
+      {
+        System.out.println("Present and Repeated");
+      }  
+      else
+      {
+        System.out.println("Present");
+      }
     }
   }
 }
