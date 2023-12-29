@@ -1,6 +1,6 @@
 package JavaTraining.Day3;
 
-public class O11 {
+public class O1_Trainer {
   public static void main(String[] args) {
     String s1=new String("Welcome");
        System.out.println(s1.charAt(0));

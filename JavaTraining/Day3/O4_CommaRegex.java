@@ -1,6 +1,6 @@
 package JavaTraining.Day3;
 
-public class O4 {
+public class O4_CommaRegex {
   public static void main(String[] args) {
     String product = "p1,abc,nigg,89.0as";
 

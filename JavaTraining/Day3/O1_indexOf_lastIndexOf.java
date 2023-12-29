@@ -1,6 +1,6 @@
 package JavaTraining.Day3;
 
-public class O1 {
+public class O1_indexOf_lastIndexOf {
   public static void main(String[] args) {
     // Welcome
 

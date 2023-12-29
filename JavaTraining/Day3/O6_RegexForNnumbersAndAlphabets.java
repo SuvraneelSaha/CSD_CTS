@@ -1,6 +1,6 @@
 package JavaTraining.Day3;
 
-public class O6 {
+public class O6_RegexForNnumbersAndAlphabets {
   public static void main(String[] args) {
     String marksDetails = "Java98Sql100";
     /*
