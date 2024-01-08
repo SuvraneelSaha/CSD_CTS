@@ -22,6 +22,10 @@ public class O4 {
 
     System.out.println(sb1+":"+sb1.reverse());
 
+// StringBuffer is mutable 
+// the Objects that are used can be changed as the objects that are stored via the 
+// StringBuffer are mutable 
+
 
 
   }
