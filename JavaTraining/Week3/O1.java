@@ -39,7 +39,7 @@ public class O1 {
 }
 }
 /*
-	 * Write a program to get input as String and display the output as foloows
+	 * Write a program to get input as String and display the output as follows
 	 * Sample Input
 	 * Rabbit
 	 * Sample output
