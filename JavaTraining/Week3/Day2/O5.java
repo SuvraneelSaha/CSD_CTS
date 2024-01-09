@@ -24,24 +24,36 @@ public class O5 {
       arr[i] = in.nextInt();
     }
 
-
+    System.out.println(Arrays.toString(removeElement(arr)));
 
   }
 
   public static int[] removeElement(int[] arr)
   {
    
-    List<Integer> list = Collections.addAll(arr);
+    ArrayList<Integer> al = new ArrayList<Integer>() ; 
 
+   for (int i = 0; i < arr.length; i++)
+  {
+    al.add(arr[i]);
+  }
 
-
-    
-
-    for (int i = 0; i < arr.length; i++) {
-      
+    for (int i = 0; i < al.size(); i++)
+    {
+      if(al.get(i) == 10)
+      {
+        al.remove(i);
+      }  
     }
 
-    
+   int[] ans = new int[al.size()];
+
+   for(int i = 0 ; i < ans.length ; i++)
+   {
+    ans[i] = al.get(i);
+   }
+
+   return ans;
 
   }
 }
