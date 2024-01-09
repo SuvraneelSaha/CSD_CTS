@@ -32,5 +32,4 @@ class Accessories{
 
 class Clothes{
 private double width;
-  private double height;
 }
