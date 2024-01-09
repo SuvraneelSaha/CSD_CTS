@@ -21,7 +21,7 @@ public class O3_CollectionsIntroduction {
 		Float f[]= {9.9f,9.8f};
 		List<Float> floatList=Arrays.asList(f);
 
-
+		System.out.println(floatList);
 		int aa[]= {1,2,3};//primitive array
 		List<Integer> lst1=new ArrayList<Integer>();
 		for(int value:aa) {
