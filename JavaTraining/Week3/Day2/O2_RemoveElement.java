@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 import java.util.*;
 
-public class O5 {
+public class O2_RemoveElement {
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
 
