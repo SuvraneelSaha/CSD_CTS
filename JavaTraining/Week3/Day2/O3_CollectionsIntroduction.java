@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 
-public class O3 {
+public class O3_CollectionsIntroduction {
   public static void main(String[] args) {
     	/*Dynamic Binding*/
 		List<Integer> lst=null;
