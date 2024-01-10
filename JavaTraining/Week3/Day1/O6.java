@@ -14,7 +14,7 @@ public class O6 {
   }
 }
 
-public class Employee{
+ class Employee{
   private int Eno;
   private String Ename;
   private Float salary; 

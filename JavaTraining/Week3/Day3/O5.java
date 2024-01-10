@@ -12,15 +12,18 @@ public class O5 {
     int n = in.nextInt();
     
     
-      System.out.println("Enter the student id number : ");
-      int id = Integer.parseInt(in.nextLine());
-      System.out.println("Enter the name of the Student :");
-      String name = in.nextLine();
-      Student student = new Student(id,name);
-      sbo.addStudent(student);
+      // System.out.println("Enter the student id number : ");
+      // int id = Integer.parseInt(in.nextLine());
+      // System.out.println("Enter the name of the Student :");
+      // String name = in.nextLine();
+      // Student student = new Student(id,name);
+      // sbo.addStudent(student);
       
+			Student student=new Student(1,"a");
+		sbo.addStudent(student);
+		System.out.println(sbo.getAll());
     
-    System.out.println(sbo.getAll());
+    // System.out.println(sbo.getAll());
   }
 }
 class Student{
