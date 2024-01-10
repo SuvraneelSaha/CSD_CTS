@@ -25,6 +25,10 @@ public class O4 {
       System.out.println(i.getEno());
       System.out.println(i.getEname());
     }
+
+    for(Student student:students) {
+			System.out.println(student.toString());
+		}
   }
 }
 
@@ -47,5 +51,9 @@ public class O4 {
 	}
 	public void setEname(String ename) {
 		this.ename = ename;
+	}
+  @Override
+	public String toString() {
+		return "Student [eno=" + eno + ", ename=" + ename + "]";
 	}
 } 

@@ -1,4 +1,4 @@
-package JavaTraining.Week3;
+package JavaTraining.Week3.Day1;
 
 public class O5 {
   public static void main(String[] args) {

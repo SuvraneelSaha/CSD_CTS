@@ -1,3 +1,6 @@
+package JavaTraining.Week3.Day1;
+
+
 public class O7{
   public static void main(String[] args) {
     

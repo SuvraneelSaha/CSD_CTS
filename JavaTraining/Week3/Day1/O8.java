@@ -1,4 +1,4 @@
-package JavaTraining.Week3;
+package JavaTraining.Week3.Day1;
 
 import java.util.Scanner;
 

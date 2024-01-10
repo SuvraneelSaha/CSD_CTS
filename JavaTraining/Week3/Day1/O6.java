@@ -1,4 +1,4 @@
-package JavaTraining.Week3;
+package JavaTraining.Week3.Day1;
 /*
 Ram is trying to create an application for their org to manage all departments employee details . There
 are 500 employees and  4 Managers . And there are some Accountants for HR, Purchase and sales also also . Each Manager are from Different Location try to help 
