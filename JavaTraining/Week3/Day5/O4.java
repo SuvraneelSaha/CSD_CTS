@@ -60,6 +60,14 @@ public int compareTo(Student s1)
   // System.out.println(this);
 
   return this.no<s1.getNo()?(this.no==s1.getNo()?0:-1):1;
+  // s1 is the next object 
+  // and this is for the current object 
+  // depending upon the number whether it is positive 0 or negative , it will sort 
+
+  // return this.name.compareTo(s1.getName());
+  // for sorting according to the name of the object's name 
+
+  
 
 
   // return this.no<s1.getNo()?0:1 ; 
