@@ -21,6 +21,7 @@ public class O7 {
       operation.addStudent(s1);
 
     }
+    in.close();
 
     Collections.sort(operation.getAll(),new NameComparator());
 
