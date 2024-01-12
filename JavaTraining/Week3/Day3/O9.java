@@ -33,7 +33,7 @@ public class O9 {
 
     System.out.println(dups.size());
     // number of duplicate characters 
-
+    in.close();
 
   }
 }
