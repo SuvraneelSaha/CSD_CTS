@@ -13,6 +13,10 @@ public class O6 {
     Collections.sort(list, new NumberComparator());
 
     System.out.println(list);
+
+    Collections.sort(list,new NameComparator());
+
+    System.out.println(list);
     
   }
 }
