@@ -56,8 +56,8 @@ public class O11 {
 
     for(String category : categoryList)
     {
-      String pdtName = "";
-      int maxSold = 0 ;
+    String pdtName = "";
+    int maxSold = 0 ;
 
       for(Map.Entry<String,String> e : productDetails.entrySet())
       {

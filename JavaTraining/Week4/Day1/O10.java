@@ -23,46 +23,67 @@ public class O10 {
       ProductDetails.put(product, category);
 
     }
-    System.out.println(ProductDetails);
     for (int i = 0; i < n; i++)
     {
       System.out.println("Enter the Product");
       String product = in.nextLine();  
-
+      
       System.out.println("enter the Price");
       int price = Integer.parseInt(in.nextLine());
-
+      
       salesDetails.put(product, price);
     }
-    System.out.println(salesDetails);
 
+
+    System.out.println("Product Details"+ProductDetails);
+
+
+    System.out.println("Sales Details"+salesDetails);
+
+    System.out.println(getMaxSold(ProductDetails, salesDetails).toString());
+
+    
+    
   }
 
-  public static void getMaxSold(Map<String,String> ProductDetails,Map<String,Integer> salesDetails)
+  public static Set<String> getMaxSold(Map<String,String> ProductDetails,Map<String,Integer> salesDetails)
   {
-   Set<String> list = new HashSet<String>();
+
+   Set<String> list = new LinkedHashSet<String>();
  
-    Set<String> category = new HashSet<String>();
+    Set<String> categoryList = new LinkedHashSet<String>(ProductDetails.values());
 
-    category = ProductDetails.keySet();
+    //categoryList = ProductDetails.keySet();
 
-    for (String name : ProductDetails.keySet())  
+    //ProductDetails.values()
+
+    // this was the bug 
+    for(String category : categoryList)
     {
-      int maxValue = 0 ; 
-      String productName = null;
-      for(String s : category)
+      String pdtName = "";
+      int maxSold = 0 ;
+
+      for(Map.Entry<String,String> e : ProductDetails.entrySet())
       {
-        if(name.equals(s))
+        String key = e.getKey();
+        String value = e.getValue();
+
+        if(value.equals(category))
         {
-          if(ProductDetails.get(name).equals(category))
+          int v = salesDetails.get(key);
+
+          if(v > maxSold)
           {
-
+            maxSold = v ; 
+            pdtName = key ; 
           }
+
         }
+
       }
+      list.add(pdtName);
+      System.out.println(list.toString());
     }
-
-  //return list;
-
+    return list;
   }
 }
