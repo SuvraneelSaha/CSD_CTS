@@ -1,4 +1,4 @@
-package JavaTraining.Week4;
+package JavaTraining.Week4.Day1;
 
 public class POTD {
   public static void main(String[] args) {
