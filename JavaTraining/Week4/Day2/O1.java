@@ -12,7 +12,10 @@ public class O1 {
 
     Map<Integer,String> list = new ConcurrentHashMap<Integer,String>();
     // normal Hashmap // no linkedHashMap , no treeHashMap just 
-    // simple hashmap 
+    // HashMap comes under Map 
+    // here we have used just Map and the type of the Map is ConcurrentHashMap
+    // as there is deletion simultaneous operations 
+    // Stackoverflow just 
 
     for (int i = 0; i < n; i++) {
       System.out.println("Enter the Id");
@@ -27,6 +30,10 @@ public class O1 {
     System.out.println(list);
 
     System.out.println(afterDelete(list));
+    in.close();
+
+    System.out.println("size of the list is "+list.size());
+    System.out.println(list.toString());
 
   }
   public static int afterDelete(Map<Integer,String> list)
@@ -34,9 +41,10 @@ public class O1 {
     int count = 0 ; 
    for(Map.Entry<Integer,String> e : list.entrySet())
    {
-    if(e.getKey() % 3 ==0)
+    int key = e.getKey();
+    if(key % 3 ==0)
     {
-      list.remove(e.getKey());
+      list.remove(key);
       count++;
     }
    }
