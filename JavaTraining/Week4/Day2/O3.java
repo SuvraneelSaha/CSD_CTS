@@ -14,7 +14,7 @@ public class O3 {
     {
       System.out.println("enter the ID ");
       int id = Integer.parseInt(in.nextLine());
-      System.out.println("");
+      // System.out.println("");
     }
   }
 }
