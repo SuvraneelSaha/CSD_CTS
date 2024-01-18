@@ -1,6 +1,7 @@
 public class O4Auxillary {
   public static void main(String[] args) {
-    char ch =' ';
-    System.out.println((int)ch);
+   String str = "Welcome";
+   String ans = str.replaceAll("[a-zA-Z]+", "");
+   System.out.println(ans.length());
   }
 }
