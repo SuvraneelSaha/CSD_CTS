@@ -1,4 +1,4 @@
-package JavaTraining.TechStac.Questions;
+package JavaTraining.TechStac;
 import java.util.*;
 import java.util.Map.Entry;
 public class O5try {

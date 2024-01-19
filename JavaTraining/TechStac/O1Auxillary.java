@@ -1,4 +1,4 @@
-package JavaTraining.TechStac.Questions;
+package JavaTraining.TechStac;
 
 import java.util.Scanner;
 
