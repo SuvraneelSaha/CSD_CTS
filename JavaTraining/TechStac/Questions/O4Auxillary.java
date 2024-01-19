@@ -1,3 +1,4 @@
+package JavaTraining.TechStac.Questions;
 public class O4Auxillary {
   public static void main(String[] args) {
    String str = "Welcome";

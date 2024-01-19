@@ -1,3 +1,4 @@
+package JavaTraining.TechStac.Questions;
 import java.util.*;
 public class O4 {
   public static void main(String[] args) {
