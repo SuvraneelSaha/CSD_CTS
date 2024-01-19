@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class O7_StudentDetailsConstructor {
   public static void main(String[] args) {
 
-    Scanner in = new Scanner(System.in);
+     Scanner in = new Scanner(System.in);
 
     System.out.println("Enter Student's Id:");
     int studentId = Integer.parseInt(in.nextLine());
@@ -27,10 +27,10 @@ public class O7_StudentDetailsConstructor {
         // 3 argument constructor
         Student obj = new Student(studentId, studentName, studentAddress);
 
-        System.out.println("Student id:"+obj.getstudentId());
-        System.out.println("Student name:"+obj.getstudentName());
-        System.out.println("Address:"+obj.getstudentAddress());
-        System.out.println("College name:"+"NIT");
+        System.out.println("Student id:"+obj.getStudentId());
+        System.out.println("Student name:"+obj.getStudentName());
+        System.out.println("Address:"+obj.getStudentAddress());
+        System.out.println("College name:"+obj.getCollegeName());
         break;
       }
       else if(input.equals("no")||input.equals("NO"))
@@ -43,9 +43,9 @@ public class O7_StudentDetailsConstructor {
 
         Student obj = new Student(studentId, studentName, studentAddress,collegeName);
 
-        System.out.println("Student id:"+obj.getstudentId());
-        System.out.println("Student name:"+obj.getstudentName());
-        System.out.println("Address:"+obj.getstudentAddress());
+        System.out.println("Student id:"+obj.getStudentId());
+        System.out.println("Student name:"+obj.getStudentName());
+        System.out.println("Address:"+obj.getStudentAddress());
         System.out.println("College name:"+collegeName);
         break;
       }
@@ -56,10 +56,13 @@ public class O7_StudentDetailsConstructor {
 
     }
 
+    }
+
   }
-}
+
 class Student{
 
+// Instance Variables 
 // Instance Variables 
 private int studentId;
 private String studentName;
@@ -71,7 +74,7 @@ private String collegeName;
 
 // CONSTRUCTOR FOR 4 NON NIIT
 
-Student(int studentId,String studentName,String studentAddress,String collegeName)
+public Student(int studentId,String studentName,String studentAddress,String collegeName)
 {  
   this.studentId = studentId;
   this.studentName = studentName;
@@ -80,11 +83,12 @@ Student(int studentId,String studentName,String studentAddress,String collegeNam
 }  
 
 // CONSTRUCTOR FOR NIIT 
-Student(int studentId,String studentName,String studentAddress)
+public Student(int studentId,String studentName,String studentAddress)
 {  
   this.studentId = studentId;
   this.studentName = studentName;
   this.studentAddress = studentAddress;
+  this.collegeName="NIT";
   
 }  
 
@@ -92,26 +96,27 @@ Student(int studentId,String studentName,String studentAddress)
 
 // GETTER FUNCTIONS
 
-public int getstudentId()
+public int getStudentId()
 {
   return this.studentId;
 }
 
-public String getstudentName()
+public String getStudentName()
 {
   return this.studentName;
 }
 
-public String getstudentAddress()
+public String getStudentAddress()
 {
   return this.studentAddress;
 }
 
-public String getcollegeName()
+public String getCollegeName()
 {
   return this.collegeName;
 
 }
+
 
 
 
