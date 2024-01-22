@@ -1,5 +1,5 @@
-public class O8{
-  [10:51 AM] lakshmi, Vijaya (Cognizant)
+public class O2{
+ 
 public static void main(String[] args) {
  
 		List<Integer> lst=new ArrayList<Integer>();
