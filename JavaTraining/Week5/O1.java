@@ -2,7 +2,8 @@ public class O1{
   public static void main(String[] args)
   {
 
-  } /*
+  }
+  /*
 		 * Predicate
 		 */
 		Predicate<String> validator = (str) -> str.matches("[0-9]+");
